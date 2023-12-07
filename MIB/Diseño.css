@@ -1,0 +1,24 @@
+*{
+	padding:0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+	color: #181818;
+	front-family: 'Poppins', sans-serif;
+	font-size: 12px;
+}
+body{
+	background-color: #33FF00;
+	desplay: flex;
+	justify-conten: center;
+	aling-items: center;
+	height: 100vh;
+}
+.container{
+	display: grid;
+	grid-template-columns: 1.7fr 1fr;
+	whdth: 980px;
+	height: 560px;
+	border: 1px solid black;
+}
